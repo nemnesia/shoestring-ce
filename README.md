@@ -1,4 +1,8 @@
-# shoestring
+# shoestring - community edition -
+
+# Attention
+
+This is a community version of `https://github.com/symbol/product/tree/dev/tools/shoestring` with additional functionality.
 
 # Security
 
