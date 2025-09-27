@@ -1,0 +1,25 @@
+# github
+!.github
+
+# editors
+*~
+*.sln
+*.vcxproj
+*.vcxproj.filters
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# python
+.pytest_cache
+.python-version
+__pycache__/
+*.egg-info/
+build/
+dist/
+*.mo
+
+# other build artifacts
+_generated/

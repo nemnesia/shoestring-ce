@@ -1,0 +1,33 @@
+[tool.poetry]
+name = 'symbol-shoestring-ce'
+version = '0.2.2.post1'
+description = 'Symbol Shoestring Deployment Tool - Community Edition'
+authors = ['ccHarvestasya <harvestasya84@gmail.com>']
+maintainers = ['ccHarvestasya <harvestasya84@gmail.com>']
+license = "MIT"
+
+readme = 'README.md'
+
+packages = [{ include = 'shoestring_ce' }]
+
+repository = 'https://github.com/nemnesia/shoestring-ce'
+
+keywords = ['symbol', 'shoestring', 'deployment', 'node']
+
+classifiers = [
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12'
+]
+
+include = ['shoestring/lang/*/LC_MESSAGES/messages.mo']
+
+[tool.poetry.scripts]
+shoestring_ce = "shoestring_ce.__main__:entry_point"
+ssc = "shoestring_ce.__main__:entry_point"
+shoestring_ce-wizard = "shoestring_ce.wizard.__main__:entry_point"
+sscw = "shoestring_ce.wizard.__main__:entry_point"
+
+[tool.poetry.dependencies]
+python = "^3.9.2"
