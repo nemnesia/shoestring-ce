@@ -4,8 +4,8 @@
 
 ## Attention
 
-[!IMPORTANT]
-This is a community version of `https://github.com/symbol/product/tree/dev/tools/shoestring` with additional functionality.
+> [!IMPORTANT]
+> This is a community version of `https://github.com/symbol/product/tree/dev/tools/shoestring` with additional functionality.
 
 ## Running from github clone:
 
