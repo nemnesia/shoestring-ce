@@ -25,9 +25,9 @@ include = ['shoestring/lang/*/LC_MESSAGES/messages.mo']
 
 [tool.poetry.scripts]
 shoestring_ce = "shoestring_ce.__main__:entry_point"
-ssc = "shoestring_ce.__main__:entry_point"
+sce = "shoestring_ce.__main__:entry_point"
 shoestring_ce-wizard = "shoestring_ce.wizard.__main__:entry_point"
-sscw = "shoestring_ce.wizard.__main__:entry_point"
+scew = "shoestring_ce.wizard.__main__:entry_point"
 
 [tool.poetry.dependencies]
 python = "^3.9.2"

@@ -33,16 +33,16 @@ python3 -m pip install dist/symbol_shoestring_ce-0.2.2.post1-py3-none-any.whl
 
 # Can be run with the following command
 shoestring_ce
-ssc
+sce
 shoestring_ce-wizard
-sscw
+scew
 ```
 
 Enable autocomplete.
 
 ```sh
 eval "$(register-python-argcomplete shoestring_ce)"
-eval "$(register-python-argcomplete ssc)"
+eval "$(register-python-argcomplete sce)"
 exec $SHELL -l
 ```
 
