@@ -1,8 +1,52 @@
 # shoestring - community edition -
 
-# Attention
+# Community Edition
 
+## Attention
+
+[!IMPORTANT]
 This is a community version of `https://github.com/symbol/product/tree/dev/tools/shoestring` with additional functionality.
+
+## Running from github clone:
+
+```sh
+git clone https://github.com/nemnesia/shoestring-ce.git
+cd shoestring-ce
+
+python3 -m pip install -r requirements.txt
+./scripts/compile_resource_strings.sh
+
+PYTHONPATH=. python3 -m shoestring_ce --help
+```
+
+### Poetry Build & Install
+
+Install Poetry.
+
+```sh
+curl -sSL https://install.python-poetry.org | POETRY_VERSION=1.8.5 python3 -
+```
+
+```sh
+poetry build
+python3 -m pip install dist/symbol_shoestring_ce-0.2.2.post1-py3-none-any.whl
+
+# Can be run with the following command
+shoestring_ce
+ssc
+shoestring_ce-wizard
+sscw
+```
+
+Enable autocomplete.
+
+```sh
+eval "$(register-python-argcomplete shoestring_ce)"
+eval "$(register-python-argcomplete ssc)"
+exec $SHELL -l
+```
+
+If you want to make it persistent, add the `eval` command to your `~/.bashrc`.
 
 # Security
 
